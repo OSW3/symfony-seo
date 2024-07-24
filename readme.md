@@ -1,6 +1,6 @@
-# Symfony Comments
+# Symfony Seo
 
-Add comments to your app pages.
+Add SEO components to your app pages.
 
 ## How to install
 
@@ -10,7 +10,7 @@ Open a command console, enter your project directory and execute the
 following command to download the latest stable version of this bundle:
 
 ```console
-composer require osw3/symfony-comments
+composer require osw3/symfony-seo
 ```
 
 ### Step 2: Enable the Bundle
@@ -23,7 +23,7 @@ in the `config/bundles.php` file of your project:
 
 return [
     // ...
-    OSW3\Comments\CommentsBundle::class => ['all' => true],
+    OSW3\SEO\SEOBundle::class => ['all' => true],
 ];
 ```
 
